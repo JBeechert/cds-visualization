@@ -11,7 +11,7 @@ The CDS is spanned by three parameters which specify the observed Compton scatte
 Each incident photon is uniquely defined by these three parameters in the CDS. In contrast to the degenerate image space of Compton telescopes with overlapping circles projected on the sky, the CDS is a well-defined and powerful space for disciminatory analyses which do not require imaging. 
 
 The Jupyter notebook "cds-vis.ipynb" is designed to help users explore the CDS and understand how the scattering angles map to this useful data space. Users can 
-interact with figures via ```matplotlib``` and ```plotly``` by changing scattering angles. The ```plotly``` figure can be opened in a new browser tab with ```dash``` and be saved as an HTML file for later use.
+interact with figures via ```matplotlib``` and ```plotly``` by changing scattering angles. The ```plotly``` figure can be opened in a new browser tab with ```dash``` and be saved as an HTML file for later use. The ```plotly``` figure depends on scattering angles stored in a ```pandas``` database, which is generated in the notebook. 
 
 The notebook also executes checks of the function which calculate scatter points and the Compton scattering angle with ```pytest```.
 
