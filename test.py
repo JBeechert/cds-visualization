@@ -1,5 +1,6 @@
 import numpy as np
 from calculate_phi import calculate_phi
+from points import points
 
 def test_phi_real():
 	phis = []
@@ -23,3 +24,11 @@ def test_phi_range():
         		phis.append(calculate_phi(lon, lat))
 
 	assert np.abs(np.array(phis).all()) <= 360.
+
+
+def test_points():
+	lon = 25
+	lat = 25
+	x, y, z = points(lon, lat)
+
+	assert isinstance(x, list)
