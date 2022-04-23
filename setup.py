@@ -15,7 +15,7 @@ setup(name='cds-visualization',
       author_email="jbeechert56@gmail.com",   
       python_requires=">=3",
       license="MIT",
-      py_modules = ["cds-visualization"],
-      package_dir = {'':'code'},      
+#      py_modules = ["cds-visualization"],
+#      package_dir = {'':'code'},      
       install_requires = ['pytest', 'numpy']
 )
