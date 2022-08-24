@@ -1,5 +1,5 @@
 # cds-visualization
-Visualize the Compton Data Space (CDS). Final project for UC Berkeley Python for Data Science course (https://github.com/profjsb/python-seminar).
+Visualize the Compton Data Space (CDS). Final project for UC Berkeley Python Computing for Data Science course (https://github.com/profjsb/python-seminar).
 
 ## What is the CDS?
 
